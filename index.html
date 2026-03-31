@@ -5,205 +5,322 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Satyam Kumar - B.Tech CSE Student, AI/ML Enthusiast and Software Developer Portfolio">
-    <meta name="keywords" content="Satyam Kumar, Portfolio, CSE Student, AI ML Developer, Web Developer">
+        content="Satyam Kumar portfolio featuring software development, AI/ML interests, projects, education, and certifications.">
+    <meta name="keywords"
+        content="Satyam Kumar, portfolio, software developer, AI ML, web developer, computer science student">
     <meta name="author" content="Satyam Kumar">
-    <title>Your Name | Software Developer</title>
+    <title>Satyam Kumar | Software Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <!-- NAVBAR -->
-    <nav class="nav">
-        <div class="logo">
-            <div class="logo-circle">SK</div>
-        </div>
-        <div class="nav-links">
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </div>
-    </nav>
+    <header class="site-header">
+        <nav class="nav shell">
+            <a class="brand" href="#top" aria-label="Satyam Kumar home">
+                <span class="brand-mark">SK</span>
+                <span class="brand-text">Satyam Kumar</span>
+            </a>
 
-    <!-- HERO SECTION -->
-    <section class="hero">
-        <div class="hero-container">
+            <div class="nav-links" aria-label="Primary navigation">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
 
-            <div class="hero-text">
+    <main id="top">
+        <section class="hero shell section-grid">
+            <div class="hero-copy" data-reveal>
+                <p class="eyebrow">Portfolio</p>
                 <h1>Satyam Kumar</h1>
-                <h3>Computer Science Engineering Student</h3>
-                <p>
-                    Aspiring Software Developer passionate about AI/ML,
-                    full-stack development, and building real-world scalable systems.
+                <h3 class="hero-role">Computer Science Engineering Student</h3>
+                <p class="hero-summary">
+                    Aspiring Software Developer passionate about AI/ML, full-stack development, and
+                    building real-world scalable systems.
                 </p>
 
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View Projects</a>
-                    <a href="resume.pdf" download class="btn btn-secondary">Download Resume</a>
-                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#projects">View Projects</a>
+                    <a class="btn btn-secondary" href="assets/docs/resume.pdf" download>Download Resume</a>
+                    <a class="btn btn-ghost" href="#contact">Contact Me</a>
                 </div>
             </div>
 
-            <div class="hero-image">
-                <img src="img.png" alt="Photo" loading="lazy">
+            <div class="hero-visual" data-reveal>
+                <div class="portrait-circle">
+                    <img src="assets/images/profile.png" alt="Portrait of Satyam Kumar">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="shell content-section" data-reveal>
+            <div class="section-heading">
+                <p class="eyebrow">About</p>
+                <h2>About Me</h2>
             </div>
 
-        </div>
-    </section>
+            <div class="about-grid">
+                <article class="panel">
+                    <p>
+                        B.Tech CSE student with strong understanding of programming fundamentals,
+                        object-oriented concepts, and web development. Experienced in developing responsive
+                        web projects using HTML, CSS, and JavaScript. Actively enhancing skills in data
+                        structures and modern development tools to build scalable software solutions.
+                    </p>
+                </article>
+            </div>
+        </section>
 
-    <!-- ABOUT -->
-    <section id="about">
-        <h2>About Me</h2>
-        <div class="card">
-            <p>
-                B.Tech CSE student with strong understanding of programming fundamentals, object-oriented concepts, and
-                web development. Experienced in developing responsive web projects using HTML, CSS, and JavaScript.
-                Actively enhancing skills in data structures and modern development tools to build scalable software
-                solutions
-            </p>
-        </div>
-    </section>
+        <section id="skills" class="shell content-section" data-reveal>
+            <div class="section-heading">
+                <p class="eyebrow">Skills</p>
+                <h2>Technical Skills</h2>
+            </div>
+            <div class="skills-layout">
+                <article class="panel">
+                    <h3>Fronted</h3>
+                    <div class="chip-group">
+                        <span class="chip">HTML</span>
+                        <span class="chip">CSS</span>
+                        <span class="chip">JavaScript</span>
+                    </div>
+                </article>
+            </div>
+            <div class="skills-layout">
+                <article class="panel">
+                    <h3>Backend</h3>
+                    <div class="chip-group">
+                        <span class="chip">Node.js</span>
+                        <span class="chip">Express.js</span>
+                    </div>
+                </article>
+            </div>
+            <div class="skills-layout">
+                <article class="panel">
+                    <h3>Database</h3>
+                    <div class="chip-group">
+                        <span class="chip">MongoDB</span>
+                    </div>
+                </article>
+            </div>
+            <div class="skills-layout">
+                <article class="panel">
+                    <h3>programming</h3>
+                    <div class="chip-group">
+                        <span class="chip">c/c++</span>
+                        <span class="chip">Python</span>
+                    </div>
+                </article>
+            </div>
+            <div class="skills-layout">
+                <article class="panel">
+                    <h3>Core concepts</h3>
+                    <div class="chip-group">
+                        <span class="chip">OOPs (c++)</span>
+                        <span class="chip">DSA</span>
+                        <span class="chip">DBMS</span>
+                    </div>
+                </article>
+            </div>
+            </article>
+            </div>
+        </section>
 
-    <!-- SKILLS -->
-    <section id="skills" class="skills-section">
-        <h2>Technical Skills</h2>
-
-        <div class="skills-grid">
-            <div class="skill-card">
-                <i class="fas fa-code"></i>
-                <p>Web Development</p>
+        <section id="projects" class="shell content-section" data-reveal>
+            <div class="section-heading">
+                <p class="eyebrow">Projects</p>
+                <h2>Projects</h2>
             </div>
 
-            <div class="skill-card">
-                <i class="fas fa-laptop-code"></i>
-                <p>C/C++</p>
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-topline">
+                        <span class="project-badge">Project 00</span>
+                        <a href="https://www.noteshapre.in/" target="_blank" rel="noreferrer">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            Live Site
+                        </a>
+                    </div>
+                    <h3>NoteSphere</h3>
+                    <p>
+                        A note-sharing web application that allows users to uploads, access, and manage study materials
+                        with a clean UI and smooth user experience.
+                    </p>
+                    <div class="chip-group">
+                        <span class="chip">Web App</span>
+                        <span class="chip">Full Stack</span>
+                        <span class="chip">Student Platform</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-topline">
+                        <span class="project-badge">Project 01</span>
+                        <a href="https://github.com/satyamkr-05" target="_blank" rel="noreferrer">
+                            <i class="fa-brands fa-github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                    <h3>Real-Time ASL Alphabet Recognition</h3>
+                    <p>
+                        Built a real-time ASL alphabet recognition system using Python, OpenCV, and LSTM model
+                        for accurate gesture detection.
+                    </p>
+                    <div class="chip-group">
+                        <span class="chip">Python</span>
+                        <span class="chip">OpenCV</span>
+                        <span class="chip">TensorFlow</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-topline">
+                        <span class="project-badge">Project 02</span>
+                        <a href="https://github.com/satyamkr-05/calculator-web-app" target="_blank" rel="noreferrer">
+                            <i class="fa-brands fa-github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                    <h3>Modern calculator</h3>
+                    <p>
+                        A responsive calculator web app built with HTML, CSS , JavaScript, featuringa modern UI and
+                        real-time arithmetic operations.
+                    </p>
+                    <div class="chip-group">
+                        <span class="chip">HTML</span>
+                        <span class="chip">CSS</span>
+                        <span class="chip">JavaScript</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-topline">
+                        <span class="project-badge">Project 03</span>
+                        <a href="https://github.com/satyamkr-05" target="_blank" rel="noreferrer">
+                            <i class="fa-brands fa-github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                    <h3>Web Development Project</h3>
+                    <p>
+                        Responsive full-stack web application with authentication and database integration.
+                    </p>
+                    <div class="chip-group">
+                        <span class="chip">React</span>
+                        <span class="chip">Node.js</span>
+                        <span class="chip">MongoDB</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="education" class="shell content-section" data-reveal>
+            <div class="section-heading">
+                <p class="eyebrow">Education</p>
+                <h2>Education</h2>
             </div>
 
-            <div class="skill-card">
-                <i class="fab fa-python"></i>
-                <p>Python</p>
+            <div class="timeline-grid">
+                <article class="panel timeline-card">
+                    <span class="timeline-label">2025 - 2028 (Expected)</span>
+                    <h3>B.Tech in Computer Science Engineering</h3>
+                    <p>IK Gujral Punjab Technical University</p>
+                    <p>Relevant Coursework: Data Structures, Algorithms, AI, DBMS, OS</p>
+                </article>
+
+                <article class="panel timeline-card">
+                    <span class="timeline-label">Completed in 2025</span>
+                    <h3>Diploma in Computer Science & Engineering</h3>
+                    <p>Government Polytechnic Bhagalpur</p>
+                    <p>CGPA: 8.79</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="certifications" class="shell content-section" data-reveal>
+            <div class="section-heading">
+                <p class="eyebrow">Certifications</p>
+                <h2>Certifications</h2>
             </div>
 
-            <div class="skill-card">
-                <i class="fab fa-js"></i>
-                <p>JavaScript</p>
+            <div class="timeline-grid">
+                <article class="panel timeline-card">
+                    <span class="timeline-label">Certification</span>
+                    <h3>Web Development Internship</h3>
+                    <p>ITDesk, Bhagalpur (2024)</p>
+                    <p>Technologies: HTML, CSS, JavaScript, PHP</p>
+                </article>
+
+                <article class="panel timeline-card">
+                    <span class="timeline-label">Certification</span>
+                    <h3>Machine Learning Internship</h3>
+                    <p>NIELIT Patna (2024)</p>
+                    <p>Skills: Python, OOP, Data Science, Deep Learning</p>
+                </article>
+
+                <article class="panel timeline-card">
+                    <span class="timeline-label">Certification</span>
+                    <h3>Electric Vehicle Workshop</h3>
+                    <p>Rudravas Group & Government Polytechnic Bhagalpur (2025)</p>
+                    <p>Workshop participation and practical exposure.</p>
+                </article>
             </div>
+        </section>
 
-            <div class="skill-card">
-                <i class="fas fa-database"></i>
-                <p>MySQL</p>
+        <section id="contact" class="shell content-section" data-reveal>
+            <div class="contact-panel">
+                <div class="section-heading compact-heading">
+                    <p class="eyebrow">Contact</p>
+                    <h2>Contact Me</h2>
+                    <p class="contact-copy">
+                        Feel free to connect with me for internships, collaborations, and project discussions.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <a class="contact-card" href="mailto:satyamkr.0053@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Email</span>
+                        <strong>satyamkr.0053@gmail.com</strong>
+                    </a>
+
+                    <a class="contact-card" href="tel:+918271870303">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Phone</span>
+                        <strong>+91 8271870303</strong>
+                    </a>
+
+                    <a class="contact-card" href="https://www.linkedin.com/in/satyam-kumar00005" target="_blank"
+                        rel="noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                        <strong>View Profile</strong>
+                    </a>
+
+                    <a class="contact-card" href="https://github.com/satyamkr-05" target="_blank" rel="noreferrer">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                        <strong>@satyamkr-05</strong>
+                    </a>
+                </div>
             </div>
+        </section>
+    </main>
 
-            <div class="skill-card">
-                <i class="fab fa-git-alt"></i>
-                <p>Git</p>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="grid projects">
-
-            <div class="card">
-                <h3>Real-Time ASL Alphabet Recognition</h3>
-                <p>Built a real-time ASL alphabet recognition system using Python, OpenCV, and LSTM model for accurate
-                    gesture detection.</p>
-                <p><strong>Tech:</strong> Python, OpenCV, TensorFlow</p>
-                <a href="https://github.com/satyamkr-05" class="social-link"><i class="fab fa-github"></i> GitHub</a>
-            </div>
-
-            <div class="card">
-                <h3>Face Recognition Attendance System</h3>
-                <p>Automated attendance system using face recognition with student data storage and recognition like
-                    biometric system.</p>
-                <p><strong>Tech:</strong> Python, OpenCV, Machine Learning</p>
-                <a href="https://github.com/satyamkr-05" class="social-link"><i class="fab fa-github"></i> GitHub</a>
-            </div>
-
-            <div class="card">
-                <h3>Web Development Project</h3>
-                <p>Responsive full-stack web application with authentication and database integration.</p>
-                <p><strong>Tech:</strong> React, Node.js, MongoDB</p>
-                <a href="https://github.com/satyamkr-05" class="social-link"><i class="fab fa-github"></i> GitHub</a>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- EDUCATION -->
-    <section>
-        <h2>Education</h2>
-        <div class="card">
-            <h4>B.Tech in Computer Science Engineering</h4>
-            <p>IK Gujral Punjab Technical University | 2025-2028(Expected) </p>
-            <p>Relevant Coursework: Data Structures, Algorithms, AI, DBMS, OS</p>
-        </div>
-        <div class="card">
-            <h4>Diploma in Computer Science & Engineering</h4>
-            <p>Government Polytechnic Bhagalpur | Completed: 2025 </p>
-            <p>CGPA: 8.79</p>
-        </div>
-    </section>
-
-    <!-- CERTIFICATIONS -->
-    <section id="certifications">
-        <h2>Certifications</h2>
-        <div class="cert-container">
-            <div class="card">
-                <h3>Web Development Internship</h3>
-                <p>TTDesk, Bhagalpur (2024)</p>
-                <span>Technologies: HTML, CSS, JavaScript, PHP</span>
-            </div>
-
-            <div class="card">
-                <h3>Machine Learning Internship</h3>
-                <p>NIELIT Patna (2024)</p>
-                <span>Skills: Python, OOP, Data Science, Deep Learning</span>
-            </div>
-
-            <div class="card">
-                <h3>Electric Vehicle Workshop</h3>
-                <p>Rudravas Group & GP Bhagalpur (2025)</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <div class="card">
-            <p>Email: satyamkr.0053@gmail.com</p>
-            <p>Phone: +91 8271870303</p>
-            <p>LinkedIn:
-                <a href="https://www.linkedin.com/in/satyam-kumar00005" target="_blank" class="social-link">
-                    <i class="fab fa-linkedin"></i>LinkedIn</a>
-            </p>
-            <p>GitHub:
-                <a href="https://github.com/satyamkr-05" target="_blank" class="social-link">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-            </p>
-
-            <form>
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Your Email">
-                <textarea rows="4" placeholder="Your Message"></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        © 2026 Satyam Kumar
+    <footer class="site-footer">
+        <p>&copy; <span id="year"></span> Satyam Kumar</p>
     </footer>
 
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
