@@ -11,6 +11,10 @@ This portfolio is designed to:
 - present education and internship background clearly
 - make GitHub, LinkedIn, resume, email, and phone access easy
 
+## 📸 Screenshot
+
+![Portfolio Screenshot](./assets/imagesScreenshot 2026-03-31 213715.png)
+
 ## Tech Stack
 
 - HTML5
