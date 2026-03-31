@@ -94,7 +94,7 @@ img {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 22px;
+  gap: 33px;
   flex-wrap: wrap;
 }
 
@@ -487,7 +487,7 @@ img {
   }
 
   .nav-links {
-    gap: 14px;
+    gap: 20px;
   }
 
   .section-grid,
