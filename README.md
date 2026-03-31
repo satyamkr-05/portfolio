@@ -13,7 +13,7 @@ This portfolio is designed to:
 
 ## 📸 Screenshot
 
-![Portfolio Screenshot](./assets/imagesScreenshot 2026-03-31 213715.png)
+![Portfolio Screenshot](./assets/images/Screenshot 2026-03-31 213715.png)
 
 ## Tech Stack
 
